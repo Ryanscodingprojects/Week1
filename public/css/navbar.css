@@ -19,20 +19,3 @@
     text-decoration: none;
     color: rgb(48, 44, 44);
 }
-
-.flex {
-    min-height: 500px;
-    display: flex;
-    border: 8px solid black;
-    gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.box {
-    height: 50px;
-    width: 50px;
-    border: 1px solid red;
-    background-color: rgb(255, 0, .5);
-}
-
