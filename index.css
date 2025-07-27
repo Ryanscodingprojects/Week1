@@ -1,3 +1,25 @@
+.navbar ul {
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color: #ececec;
+}
+
+.navbar li {
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.navbar li:hover{
+    background-color: #fafafa;
+}
+
+#navbar-text {
+    text-decoration: none;
+    color: rgb(48, 44, 44);
+}
+
 .flex {
     min-height: 500px;
     display: flex;
