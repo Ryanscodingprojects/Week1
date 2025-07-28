@@ -1,7 +1,15 @@
+/* .app-header {
+    background-color: #ececec;
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: bold;
+    padding-top: 40px;
+} */
+
 .navbar ul {
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 30px;
     list-style: none;
     display:flex;
     flex-direction: row;

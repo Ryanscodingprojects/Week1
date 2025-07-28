@@ -1,1 +1,1 @@
-Adding content to the read me file.
+This is my basic banking application that shows competence with full stack development. 
