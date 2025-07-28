@@ -21,14 +21,22 @@
             </ul>
         </nav>
     </header>
-    <div class="flex">
-
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-
+    <div class="fullContainer">
+        <div class="loginGroup">
+            <h3 class="loginTitle">Sign In</h3>
+            <form action="/userInput.html" method="post">
+                <div class="userInput">
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                </div>
+                <div class="userInput">
+                    <input type="password" id="pwd" name="pwd" placeholder="Password" required>
+                </div>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <div class="create-account">
+                <p><a id="create-account" href="/public/html/createAccount.html">Create Account</a></p>
+            </div>
+        </div>
     </div>
 </body>
 
